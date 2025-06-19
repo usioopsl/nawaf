@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .loader {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <img src="output-onlinegiftools.gif" alt="Loading..." /> <!-- Replace with your GIF path -->
+        <p style="color:#5E5E5E; font-size: larger;">... جاري تأكيد الانضمام الى المجموعة</p>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            window.location.href = "Code-Error.html"; // Change to your target page
+        }, 3000); // Adjust the delay time (3000 ms = 3 seconds)
+    </script>
+</body>
+</html>

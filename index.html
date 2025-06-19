@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>International Telephone Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="Smoflo.png.png" type="image/png">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="DSxOAUB0raA.png" alt="Logo" class="logo">
+        <div>
+            <img src="172245867233593622.png" alt="Description Image" class="description-img">
+            <form>
+                <h4 style="color:#5E5E5E; font-size: large;">الدعوة للانضمام إلى مجموعة واتساب</h4>
+                <input id="phone" type="tel" name="phone" required pattern="[0-9]*" title="Please enter numbers only" />
+                <div>
+                    <button style="padding: 10px 20px;
+                    font-size: 16px;
+                    background-color: #4CAF50; 
+                    color: #fff; 
+                    border-top: 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    display: inline-block; 
+                    width: 150px;" type="submit">متابعة</button>
+                </div>
+            </form>
+            <div class="alert alert-info" style="display: none;"></div>
+        </div>
+    </div>
+</body>
+</html>
